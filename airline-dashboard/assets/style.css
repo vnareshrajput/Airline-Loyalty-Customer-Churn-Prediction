@@ -27,14 +27,21 @@ html, body, [class*="css"] {
 }
 
 [data-testid="stSidebarNav"] a {
-    color: #a0aec0 !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
     border-radius: 8px !important;
     transition: all 0.2s ease;
 }
 
-[data-testid="stSidebarNav"] a:hover,
+[data-testid="stSidebarNav"] a:hover {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    background: rgba(99,179,237,0.1) !important;
+}
+
 [data-testid="stSidebarNav"] a[aria-selected="true"] {
-    color: #63b3ed !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
     background: rgba(99,179,237,0.1) !important;
 }
 
